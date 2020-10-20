@@ -1,13 +1,18 @@
+* {
+    padding: 0;
+}
+
 body {
     margin: 0px;
-    font-family: Arial;
-    background:rgb(90, 90, 90);
+    font-family: 'Ubuntu', sans-serif;
+    background: #3A0CA3;
 }
 
 .box1 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     color: white;
+
 }
 
 .imagem {
@@ -19,16 +24,20 @@ body {
 
 .box2 {
     text-align: center;
-    background: #ff6a00;
+    background:#7209B7;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
 }
 
 .links {
     text-align: center;
     color: white;
+    padding-top: 30px;
     padding-bottom: 30px;
+    background: #F72585;
+    margin: 0;
 }
 
 .blogs {
@@ -45,14 +54,46 @@ body {
     padding-left: 10px;
     text-decoration: none;
     color: white;
+    transition: 200ms;
 }
 
 a:hover {
-    color: #ff6a00;
+    color: #4CC9F0;
 }
 
 .fav {
     text-decoration: none;
     color: white;
+    transition: 200ms;
 }
 
+h1, h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+}
+ .contato {
+     text-align: center;
+     padding: 30px;
+ }
+
+ @keyframes up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-up {
+    animation-name: up;
+    animation-duration: 800ms;
+    animation-fill-mode: backwards;
+  }
