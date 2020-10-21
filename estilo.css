@@ -1,6 +1,3 @@
-* {
-    padding: 0;
-}
 
 body {
     margin: 0px;
@@ -9,40 +6,46 @@ body {
 }
 
 .box1 {
-    text-align: center;
-    padding-bottom: 30px;
+
+    padding-bottom: 35px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
+header {
+    text-align: center;
+}
+
 .imagem {
-    padding-top: 5px;
+    margin: 20px;
     width: 150px;
     border-radius: 200px;
-    
+
+
+}
+
+.description {
 }
 
 .box2 {
     text-align: center;
     background:#7209B7;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 35px 0 35px;
     margin: 0;
 }
 
-.links {
+.blogs-fav {
     text-align: center;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 35px 0 35px;
     background: #F72585;
-    margin: 0;
 }
 
-.blogs {
-    padding-top: 10px;
-}
+
 
 .menu {
     text-align: right;
@@ -78,7 +81,7 @@ h2 {
 }
  .contato {
      text-align: center;
-     padding: 30px;
+     padding-top: 35px;
  }
 
  @keyframes up {
