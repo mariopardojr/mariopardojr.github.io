@@ -23,6 +23,7 @@ header {
     margin: 20px;
     width: 150px;
     border-radius: 200px;
+    border: 20px ridge #4361EE;
 }
 
 .box2 {
