@@ -9,9 +9,7 @@ body {
 
     padding-bottom: 35px;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 
 }
 
@@ -20,10 +18,21 @@ header {
 }
 
 .imagem {
-    margin: 20px;
+    margin: 0 10px 0;
     width: 150px;
-    border-radius: 200px;
+    border-radius: 50%;
     border: 20px ridge #4361EE;
+    display: inline-block;
+}
+
+.description {
+    display: inline-block;
+
+}
+
+.imagem, .description {
+    vertical-align: middle;
+
 }
 
 .box2 {
